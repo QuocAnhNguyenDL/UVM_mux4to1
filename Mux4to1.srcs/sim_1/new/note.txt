@@ -1,0 +1,15 @@
+1.	Sequence
+Có một cái virtual task body có một cái vòng lặp để tạo ra trans. Dùng start_item() -> assert(req.randomize()); -> finish_item
+2.	Sequencer
+Không có gì 
+3.	Ref_model
+ 
+4.	Monitor
+Khá giống driver, một cổng mon2sb để đưa trans đến sb, một task để collect trans
+
+5.	Scoreboard
+
+6.	Driver
+Khai báo m_if để giao tiếp với interface, một cổng uvm_analysis_port dr2rm để giao tiếp với rm. Build_phase, get interface và khởi tạo port. Run_phase dùng hàm reset, sau đó get item từ seq_item_port, dùng hàm drive để lái tín hiệu clone đến rm. Put tín hiệu clone đó vào cổng seq_time_port để seq get_respone
+7.	Coverage
+8.	Interface

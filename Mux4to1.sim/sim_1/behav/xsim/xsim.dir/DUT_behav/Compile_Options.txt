@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "DUT_behav" "xil_defaultlib.DUT" "xil_defaultlib.glbl" -log "elaborate.log" -L "UVM" -timescale "1ns/1ps" 

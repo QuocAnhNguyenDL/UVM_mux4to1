@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Sun Aug 11 23:50:12 2024
+# Process ID: 25836
+# Current directory: D:/Project/UVM/Mux4to1/Mux4to1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14488 D:\Project\UVM\Mux4to1\Mux4to1\Mux4to1.xpr
+# Log file: D:/Project/UVM/Mux4to1/Mux4to1/vivado.log
+# Journal file: D:/Project/UVM/Mux4to1/Mux4to1\vivado.jou
+# Running On        :DESKTOP-TRNDI3S
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz
+# CPU Frequency     :2496 MHz
+# CPU Physical cores:4
+# CPU Logical cores :8
+# Host memory       :17008 MB
+# Swap memory       :14910 MB
+# Total Virtual     :31919 MB
+# Available Virtual :4759 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/Project/UVM/Mux4to1/Mux4to1/Mux4to1.xpr
+update_compile_order -fileset sources_1
